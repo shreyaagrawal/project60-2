@@ -80,25 +80,40 @@ h2 {
 .menu{
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
+    background: black;
+    width: 100%;
+    margin-top: 0px;
     top: 10px;
-    left: 30px;
-    right: 30px;
     z-index: 10;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
 .link{
     float:left;
+    display: inline;
     color: #fff;
     padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
 }
 .link:hover{
     background-color: #0d1b57;
+    text-decoration: underline;
+    font-size: 25px;
+}
+writing a{
+    text-shadow: none !important;
+    color: blue !important;
+    text-decoration: underline!important;
+    
 }
 #bio {
 
@@ -106,7 +121,9 @@ h2 {
     text-align: center;
     font-size: 42px;
 }
-
+#contact iframe{
+    width: 100%;
+}
 .line {
     height: 6px;
     background-color: #000;
